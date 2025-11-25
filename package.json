@@ -1,0 +1,17 @@
+{
+  "name": "free-gun-relay",
+  "version": "1.0.0",
+  "description": "GUN relay for EasyGameMaker multiplayer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@gun-vue/relay": "^0.6.1",
+    "gun": "^0.2023.0",
+    "express": "^4.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
